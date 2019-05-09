@@ -1,5 +1,9 @@
 <?xml version="1.1" encoding="UTF-8" standalone="no"?>
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="012">
+        <dropTable tableName="informix">
+        <dropTable tableName="person">        
+    </changeSet>
     <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="123">
         <createTable tableName="informix">
             <column name="username" type="CHAR(32)">
@@ -9,7 +13,7 @@
                 <constraints nullable="false"/>
             </column>
         </createTable>
-    </changeSet>
+    </changeSet> 	
     <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="456">
         <createTable tableName="person">
             <column name="username" type="CHAR(32)">
