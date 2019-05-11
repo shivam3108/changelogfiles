@@ -20,7 +20,7 @@
         </createTable>
     </changeSet>
 	<changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="3334">
-    <insert tableName="Star">
+    <insert tableName="SUPERStar">
         <column name="username" value="shivam"/>
         <column name="age" value="24"/>        
     </insert>    
