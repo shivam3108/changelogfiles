@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8" standalone="no"?>
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
     
-    <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="1131">
+    <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="1111">
         <createTable tableName="Manager">
             <column name="username" type="CHAR(32)">
                 <constraints nullable="false"/>
@@ -11,7 +11,7 @@
             </column>
         </createTable>
     </changeSet> 	
-    <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="4576">
+    <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="2222">
         <createTable tableName="Star">
             <column name="username" type="CHAR(32)">
                 <constraints nullable="false"/>
@@ -19,7 +19,7 @@
             <column name="age" type="VARCHAR(8)"/>
         </createTable>
     </changeSet>
-	<changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="789">
+	<changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="3333">
     <insert tableName="Star">
         <column name="username" value="shivam"/>
         <column name="age" value="24"/>        
