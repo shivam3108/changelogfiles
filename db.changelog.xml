@@ -12,7 +12,7 @@
         </createTable>
     </changeSet> 	
     <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="2223">
-        <createTable tableName="SUPERStars">
+        <createTable tableName="SUPERStar">
             <column name="username" type="CHAR(32)">
                 <constraints nullable="false"/>
             </column>
