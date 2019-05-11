@@ -2,7 +2,7 @@
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
     
     <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="1131">
-        <createTable tableName="informix">
+        <createTable tableName="Manager">
             <column name="username" type="CHAR(32)">
                 <constraints nullable="false"/>
             </column>
@@ -12,7 +12,7 @@
         </createTable>
     </changeSet> 	
     <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="4576">
-        <createTable tableName="person">
+        <createTable tableName="Star">
             <column name="username" type="CHAR(32)">
                 <constraints nullable="false"/>
             </column>
@@ -20,7 +20,7 @@
         </createTable>
     </changeSet>
 	<changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="789">
-    <insert tableName="person">
+    <insert tableName="Star">
         <column name="username" value="shivam"/>
         <column name="age" value="24"/>        
     </insert>    
