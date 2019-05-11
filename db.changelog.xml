@@ -25,10 +25,4 @@
         <column name="age" value="24"/>        
     </insert>    
     </changeSet>
-	<changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="3334">
-    <insert tableName="SUPERStar">
-        <column name="username" value="hari"/>
-        <column name="age" value="26"/>        
-    </insert>    
-    </changeSet>
 </databaseChangeLog>
