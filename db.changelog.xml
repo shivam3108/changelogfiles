@@ -25,10 +25,10 @@
         <column name="age" value="24"/>        
     </insert>    
     </changeSet>
-    <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="3335">
+    <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="3324">
     <insert tableName="SUPERStar">
-        <column name="JOBID" TYPE="CHAR(32)"/>
-                
+        <column name="username" value="HARI"/>
+        <column name="age" value="26"/>        
     </insert>    
     </changeSet>
 </databaseChangeLog>
