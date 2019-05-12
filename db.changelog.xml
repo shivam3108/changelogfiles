@@ -31,7 +31,7 @@
         <column name="age" value="26"/>        
     </insert>    
     </changeSet>
-    <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="3324">
+    <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="3344">
     <insert tableName="SUPERStar">
         <column name="username" value="demo-user"/>
         <column name="age" value="26"/>        
