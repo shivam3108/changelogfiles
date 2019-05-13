@@ -2,37 +2,37 @@
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
     
     <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="1112">
-        <createTable tableName="OFFICEMANAGER">
+        <createTable tableName="employee">
             <column name="username" type="CHAR(32)">
                 <constraints nullable="false"/>
             </column>
-            <column name="servers" type="VARCHAR(128)">
+            <column name="age" type="VARCHAR(128)">
                 <constraints nullable="false"/>
             </column>
         </createTable>
     </changeSet> 	
     <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="2223">
-        <createTable tableName="SUPERStar">
-            <column name="username" type="CHAR(32)">
+        <createTable tableName="student">
+            <column name="sname" type="CHAR(32)">
                 <constraints nullable="false"/>
             </column>
             <column name="age" type="VARCHAR(8)"/>
         </createTable>
     </changeSet>
 	<changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="3334">
-    <insert tableName="SUPERStar">
+    <insert tableName="employee">
         <column name="username" value="shivam"/>
         <column name="age" value="24"/>        
     </insert>    
     </changeSet>
     <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="3324">
-    <insert tableName="SUPERStar">
+    <insert tableName="employee">
         <column name="username" value="HARI"/>
         <column name="age" value="26"/>        
     </insert>    
     </changeSet>
     <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="3344">
-    <insert tableName="SUPERStar">
+    <insert tableName="employee">
         <column name="username" value="demo-user"/>
         <column name="age" value="26"/>        
     </insert>    
