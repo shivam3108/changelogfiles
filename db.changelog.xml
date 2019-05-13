@@ -37,4 +37,11 @@
         <column name="age" value="26"/>        
     </insert>    
     </changeSet>
+    <changeSet author="EC2AMAZ-J3QQUQU$ (generated)" id="3346">
+    <insert tableName="employee">
+        <column name="username" value="cap-user"/>
+        <column name="age" value="27"/>        
+    </insert>    
+    </changeSet>
+
 </databaseChangeLog>
